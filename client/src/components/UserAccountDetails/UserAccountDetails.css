@@ -1,0 +1,15 @@
+.user-name {
+	font-size: 17px;
+	color: white;
+	font-weight: bold;
+}
+
+.user-details p {
+	padding: 0;
+	margin-left: 10px;
+}
+
+.user-name:hover {
+	text-decoration: underline;
+	transition: .200s ease-in-out;
+}

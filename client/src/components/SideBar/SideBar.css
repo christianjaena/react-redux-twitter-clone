@@ -1,0 +1,72 @@
+li {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	width: fit-content;
+	border-radius: 25px;
+	padding: 10px 15px 10px 10px;
+	margin-bottom: 15px;
+}
+
+li:hover {
+	background-color: #162d40;
+	color: #1da1f2;
+	transition: 0.2s ease-in-out;
+}
+
+.sidebar {
+	position: sticky;
+	top: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: top;
+	padding: 0 20px;
+	border-right: 1px solid #253341;
+	height: 100vh;
+}
+
+.user-profile .user-name:hover {
+	text-decoration: none;
+}
+
+.tweet-button-sidebar {
+	height: 50px;
+	width: 215px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	color: whitesmoke;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #1da1f2;
+	margin-left: 40px;
+}
+
+.tweet-button-sidebar:hover {
+	background-color: #1a91da;
+	transition: 0.2s ease-in-out;
+}
+
+.user-profile {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 220px;
+	margin-top: 50px;
+	margin-left: 40px;
+	border-radius: 45px;
+	padding: 10px;
+}
+
+.user-profile:hover {
+	background-color: #162d40;
+	transition: 0.2s ease-in-out;
+}
+
+.sidebar ul {
+	padding-left: 20px;
+}

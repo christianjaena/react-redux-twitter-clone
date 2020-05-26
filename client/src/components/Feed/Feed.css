@@ -1,0 +1,9 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 317px 598px 432px;
+}

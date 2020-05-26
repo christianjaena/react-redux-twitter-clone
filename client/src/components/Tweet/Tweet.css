@@ -1,0 +1,99 @@
+.tweet-user .user-details {
+	display: flex;
+	align-self: start;
+}
+
+.tweet-user .user-icon {
+	margin-top: 10px;
+}
+
+.reaction-container {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.tweet-content-container {
+	padding-top: 10px;
+	width: 100%;
+}
+
+.tweet-user {
+	display: flex;
+	padding: 0 5px 0 15px;
+	border-top: 1px solid #253341;
+}
+
+.tweet-user:hover {
+	background-color: #192734;
+	transition: 0.2s ease-in-out;
+}
+
+.tweet-content {
+	color: white;
+	margin-left: 10px;
+}
+
+.reaction-icon {
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	padding: 10px 10px 10px 10px;
+	color: #697986;
+}
+
+.reaction-icon:hover {
+	background-color: #162d40;
+	color: #1da1f2;
+	transition: 0.2s ease-in-out;
+}
+
+.like .reaction-icon {
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	padding: 10px 10px 10px 10px;
+	color: #697986;
+}
+
+.like .reaction-icon:hover {
+	background-color: #183639;
+	color: #17bf63;
+	transition: 0.2s ease-in-out;
+}
+
+.retweet .reaction-icon {
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	padding: 10px 10px 10px 10px;
+	color: #697986;
+}
+
+.retweet .reaction-icon:hover {
+	background-color: #652644;
+	color: #e0245e;
+	transition: 0.2s ease-in-out;
+}
+
+.reaction {
+	display: flex;
+}
+
+.metrics {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 10px 10px 0;
+	font-size: 14px;
+	color: #697986;
+}
+
+.tweet-options {
+	padding: 7px;
+}
+
+.tweet-options-container {
+	padding-top: 5px;
+}

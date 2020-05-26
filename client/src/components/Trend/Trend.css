@@ -1,0 +1,10 @@
+.trend {
+	display: flex;
+	border-top: 1px solid #38444d;
+	justify-content: space-between;
+	padding: 0 15px;
+}
+
+.trend h4 {
+	color: white;
+}

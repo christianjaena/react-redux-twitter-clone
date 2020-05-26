@@ -1,0 +1,21 @@
+.user-icon-container {
+	display: flex;
+	align-items: center;
+}
+
+.user-icon {
+	height: 40px;
+	width: 40px;
+	padding: 5px;
+	background-color: #333;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user-icon img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
