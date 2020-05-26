@@ -15,7 +15,7 @@ const initialStateSignIn = {
 	error: '',
 	data: '',
 	onRoute: '',
-	isSignedIn: false,
+	isSignedIn: true,
 	isLogUserToggled: false,
 	username: '',
 	name: ''
